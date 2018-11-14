@@ -1,0 +1,15 @@
+
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+}
+aside {
+  background-image: url("bl.jpg")  opacity: 0.2;
+  background-color: #cccccc;
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+}
+
+              
