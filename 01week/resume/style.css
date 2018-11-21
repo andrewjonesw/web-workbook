@@ -1,14 +1,18 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 
 section {
+  font-family: 'Open Sans Condensed', sans-serif;
   float: left;
   margin: 0 1.5%;
   width: 63%;
 }
 aside {
-  background-image: url("bl.jpg")  opacity: 0.2;
+  font-family: 'Open Sans Condensed', sans-serif;
   background-color: #cccccc;
   float: right;
-  margin: 0 1.5%;
+ margin: 0 1.5%;
   width: 30%;
 }
 
