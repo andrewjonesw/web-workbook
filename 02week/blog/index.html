@@ -1,0 +1,109 @@
+<html>
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+      </head>
+</head>
+<body>
+
+<section>
+  <h1>Elements of a Blog with CSS</h1>
+</section>
+
+<section>
+  <h1>Element One</h1>
+    <p class="subtitle">Body Elements</p>
+      <p>The font is Open Sans Condensed, which I sourced from google fonts. I also added a navy background.</p>
+          <li>font-family: 'Open Sans Condensed', sans-serif;</l1>
+          <li>background-color: navy;</l1>
+</section>
+
+<section>
+  <h1>Element Two</h1>
+    <p class="subtitle">Font Sizes</p>
+      <p>The font sizes for the h1, p, and li elements are 25px, 20px and 15px respectively as a result of the CSS code font-size: 25px, 20px and 15px.      
+</section>
+
+<section>
+<h1>Element Three</h1>
+  <p class="subtitle">Title Alignment & Weight</p>
+    <p>The h1 elements are aligned and bolded as a result of the following CSS codes:</p>
+        <li>text-align: center;</l1>
+        <li> margin-top: 10px;</l1>
+        <li>font-weight: bold;</l1>
+</section>
+
+<section>
+<h1>Element Four</h1>
+  <p class="subtitle">Blog Margins</p>
+    <p>I added margins to the blog posts by assigning the following CSS codes to the p elements:</p>
+      <li>padding-left: 20px;</li>
+      <li>padding-right: 20px;</li>
+</section>
+
+<section>
+<h1>Element Five</h1>
+  <p class="subtitle">List Attributes</p>
+    <p>Similarly, I added a color and margins to my lists with the following CSS codes:</p>
+      <li>color: blue;</li>
+      <li>padding-left: 25px;</li>
+      <li>padding-bottom: 20px;</li>
+</section>
+
+<section>
+<h1>Element Six</h1>
+  <p class="subtitle">Border, Background and Spacing between Blogs</p>
+    <p>In order to create borders and spacing between the blogs, I used the following CSS codes under the section:</p>
+      <li>border: 2px solid gray;</li>
+      <li>background-color: white</li>
+      <li>margin: 20px;</li>
+</section>
+
+<section>
+<h1>Element Seven</h1>
+  <p class="subtitle">Creating a Unique Class for Subtitles</p>
+    <p>Although both the subtitles and the information had p elements, I decided that I wanted the subtitles to have their own color. Consequently, I gave the subtitles their own class by adding class="subtitle" to the respective p elements, which allowed me to assign a unique color to the subtitles.</p>
+    
+</section>
+
+<section>
+<h1>Element Eight</h1>
+  <p class="subtitle">Alternating List Colors</p>
+    <p>I wanted to implent nth of type in my code, so I used li:nth-of-type(even) in order to alternate the colors on my lists between blue and green.</p>
+</section>
+
+<section>
+<h1>Element Nine</h1>
+  <p class="subtitle">First Letter Color Transposition</p>
+    <p>Next, I used p.subtitle:hover:first-letter in order to transpose the colors of the first letter of the subtitle when you hover over them.</p>
+</section>
+
+<section>
+<h1>Element Ten</h1>
+  <p class="subtitle">Inheritance</p>
+    <div id="parent">
+      <p id="child">
+       I set the parent to orange and the child to inherit, which prompted the child to inherit orange.
+      </p>
+    </div>
+</section>
+
+<section>
+    <h1>Element Eleven</h1>
+      <p class="subtitle">!Important</p>
+        <p class="important">I played with !Important, which resulted in a purple font.</p>
+</section>
+
+<section>
+    <h1>Element Twelve</h1>
+    <p class="subtitle">First-of-type</p>
+        <p>Lastly, I used section:first-of-type to highlight the title of the page.</p>
+</section>
+
+</body>
+</html>
