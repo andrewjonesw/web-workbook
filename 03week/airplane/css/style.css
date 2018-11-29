@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ background: url("../img/airline.jpg") no-repeat 50% fixed / cover;
+}
+
+nav {
+height: 100px;
+width: 100%;
+background-color: #183A54;
+color: white;
+border-bottom: 1px solid white;
+padding: 15px 15px;
+}
+
+ul {
+  padding-top: 3%;
+  padding-right: 3%;
+  float: right;
+}
+
+nav ul { 
+display: inline-block;
+}
+
+nav li { 
+display: inline-block;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+section {
+margin-left: 40px;
+margin-top: 55px;
+background-color: #183A54;
+width: 330px;
+length: 150px;
+font: white;
+  }
+
+.A {  
+  background-color: #0262B6;
+}
+
+.B {  
+  background-color: #00927A;
+}
+
+.C {
+  background-color: #00927A;
+}
+
+input {  
+  background-color: #183A54;
+  border-radius: 2px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.BL {  
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.BR {
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button {
+  background-color:  #0262B6;
+  color: white;
+  width: 300px;
+  align-content: center;
+  margin-bottom: 10px;
+}
+
+.A1 {
+  text-align: center;
+  color: white;
+ }
+
+.B1 {
+ text-align: center; 
+}
