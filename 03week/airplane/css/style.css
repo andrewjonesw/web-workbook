@@ -42,16 +42,27 @@ length: 150px;
 font: white;
   }
 
+.Logo {
+  height: 75px;
+  width: 350px;
+}
+
 .A {  
   background-color: #0262B6;
+  height: 100%;
+  width: 30%;
 }
 
 .B {  
   background-color: #00927A;
+  height: 100%;
+  width: 30%;
 }
 
 .C {
   background-color: #00927A;
+  height: 100%;
+  width: 30%;
 }
 
 input {  
