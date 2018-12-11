@@ -1,1 +1,54 @@
+nav {
+color: white;
+border: 2px solid white;
+display: flex;
+justify-content: center;
+flex-direction: row;
+position: relative;
+}
 
+span:hover { 
+background-color: red;
+}
+
+a:visited { 
+text-decoration: none;
+color: white;
+}
+
+a { 
+text-decoration: none;
+color: white; 
+}
+
+body {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.shop {
+ background-color: white;
+ width: 250px;
+ height: 250px;
+ display: flex;
+}
+
+ .Item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
