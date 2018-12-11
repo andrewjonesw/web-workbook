@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: flex;
+  list-style-type: none;
+  border: 1px solid red;
+
+.card_item {
+  border: 1px solid purple;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 900px;
+  border: 1px solid blue;
+}
+
+.card_image {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card_image_city {
+  background-image: url("https://assets.devry.edu/blog/im/learning-the-language-of-code-lg.jpg");
+}
+
+ card_content {
+   padding: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid red;
+   height: 50%;
+   flex-basis: row;
+ }
+
+card_content h4 {
+  color: black;
+  border: 1px solid red;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  flex: 2;
+}
+
+.card_content {
+  line-height: 1.5;
+  border: 1px solid red;
+}
+
+button (
+  width: 50%
+  background-color: white;
+  border: 1px solid #eee;
+  color: gray;
+  padding: 10px
+  text-transform: lowercase;
+  width: 100%
+  margin-top: 25px;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(199, 200,248)
+}
+
+  @media(min-width: 640px) {
+    .cards_item {
+      width: 50%;
+
+  }
+  @media(min-width: 895px) {
+    .cards_item {
+      width: 33.3333%;
+    }
+  }
+
+  .card_content h4 {
+    font-size: 60px;
+  }
