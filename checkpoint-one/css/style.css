@@ -12,6 +12,7 @@ span:hover {
 background-color: red;
 }
 
+/* No one likes blue and purple links*/
 a:visited { 
 text-decoration: none;
 color: white;
@@ -56,6 +57,7 @@ div {
    align-items: center;
  }
 
+ /*I am trying to make perfect circles.*/
  .NS {
   width: 300px;
   height: 300px;
