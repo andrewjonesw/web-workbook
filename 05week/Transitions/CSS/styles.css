@@ -9,6 +9,7 @@ body {
   margin: 0;
   padding: 0;
   align-items: center;
+  font-family: 'Delius Unicase', cursive;
 }
 
 .grid-container {
@@ -18,8 +19,8 @@ body {
 }
 
 .square {
-  height: 50px;
-  width: 50px;
+  height: 75px;
+  width: 75px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,29 +64,33 @@ body {
   transform: translateX(500px);
 }
 a:nth-child(even) {
-transition: transform 5s ease-in;
-  transform: translateX(-750px) translateY(-750px) scale(0.5);
+transition: linear;
+transition-delay: 1s;
+transition-duration: 2s;
+transform: translateX(-200px) scale(0.5);
 }
 a:nth-child(odd) {
-  transition: transform 5s ease-in;
-    transform: translateX(750px) translateY(-750px) scale(2.0);
-  } 
+transition: linear;
+transition-delay: 3s;
+transition-duration: 1s;
+transform: translateX(200px) scale(2.0);
+} 
 .square-7 {
-  background: #e03f3f;
+  background: purple;
 }
 .square-8 {
-  background: #59a627; 
+  background: purple; 
 }
 .square-9 {
-  background: #b03532;
+  background: greenyellow;
 }
 .square-10 {
-  background: #4464a1;
+  background: greenyellow;
 }
 .square-11 {
-  background: #33a8a5;
+  background: yellow;
 }
 .square-12 {
-  background: #59a627;
+  background: yellow;
   
 }
