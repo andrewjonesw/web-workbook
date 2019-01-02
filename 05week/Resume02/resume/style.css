@@ -1,0 +1,43 @@
+body {
+background: #be93c5; /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #be93c5, #7bc6cc); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #be93c5, #7bc6cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+font-family: 'Permanent Marker', cursive;
+}
+
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+}
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+}
+.education {
+  overflow: scroll;
+  background: ghostwhite;
+  color: black;
+  /* font-family: 'IBM Plex Mono', monospace; */
+  font-family: 'Special Elite', cursive;
+  height: 150px;
+  padding: 10px;
+}
+.internships {
+  overflow: scroll;
+  background: ghostwhite;
+  color: black;
+  /* font-family: 'IBM Plex Mono', monospace; */
+  font-family: 'Special Elite', cursive;
+  height: 150px;
+  padding: 10px;
+}
+
