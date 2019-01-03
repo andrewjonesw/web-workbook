@@ -4,12 +4,13 @@ background: -webkit-linear-gradient(to right, #be93c5, #7bc6cc); /* Chrome 10-25
 background: linear-gradient(to right, #be93c5, #7bc6cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 display: flex;
 flex-direction: column;
-padding: 10px;
+cursor: url('./Tree.png'), auto;
 }
 
 h1 {
 font-family: 'Permanent Marker', cursive;
-text-shadow: 2px 2px whitesmoke;
+font-size: 36px;
+text-shadow: 2px white;
 }
 
 h2 {
@@ -17,41 +18,26 @@ font-family: 'Permanent Marker', cursive;
 color: purple;
 }
 
-.education {
-  overflow: scroll;
-  background: ghostwhite;
-  color: black;
-  font-family: 'Special Elite', cursive;
-  height: 150px;
-  padding: 10px;
-}
-.internships {
-  overflow: scroll;
-  background: ghostwhite;
-  color: black;
-  font-family: 'Special Elite', cursive;
-  height: 150px;
-  padding: 10px;
-}
-
-@media (max-width: 767px) {
-
-body {
-display: flex;
-flex-direction: column;
-cursor: url('./Tree.png'), auto;
+p {
+font-family: 'Special Elite', cursive;
 }
 
 section {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
+ background: url("BG1.jpg") no-repeat;
+ background-size: 100%;
+ background-color: blue;
+ display: flex;
+ color: black;
+ align-items: center;
+ justify-content: flex-end;
+ padding-right: 50px;
 }
 
-.rope {
-float: right;
-border-radius: 200px;
-  }
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
 
 .experience { 
   overflow: scroll;
@@ -97,4 +83,4 @@ border-radius: 200px;
   box-shadow: 3px 3px gainsboro;
 }
 
-}
+@media q}
