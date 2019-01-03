@@ -24,7 +24,7 @@ font-family: 'Special Elite', cursive;
 
 section {
  background: url("BG1.jpg") no-repeat;
- background-size: 100%;
+ background-size: cover;
  background-color: blue;
  display: flex;
  color: black;
