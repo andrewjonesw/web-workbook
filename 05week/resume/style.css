@@ -1,0 +1,100 @@
+body {
+background: #be93c5; /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #be93c5, #7bc6cc); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #be93c5, #7bc6cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
+
+h1 {
+font-family: 'Permanent Marker', cursive;
+text-shadow: 2px 2px whitesmoke;
+}
+
+h2 {
+font-family: 'Permanent Marker', cursive;
+color: purple;
+}
+
+.education {
+  overflow: scroll;
+  background: ghostwhite;
+  color: black;
+  font-family: 'Special Elite', cursive;
+  height: 150px;
+  padding: 10px;
+}
+.internships {
+  overflow: scroll;
+  background: ghostwhite;
+  color: black;
+  font-family: 'Special Elite', cursive;
+  height: 150px;
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+
+body {
+display: flex;
+flex-direction: column;
+cursor: url('./Tree.png'), auto;
+}
+
+section {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.rope {
+float: right;
+border-radius: 200px;
+  }
+
+.experience { 
+  overflow: scroll;
+  background: ghostwhite;
+  color: black;
+  font-family: 'Special Elite', cursive;
+  height: 150px;
+  padding: 10px;
+  border: solid 2px #7bc6cc;
+  box-shadow: 3px 3px gainsboro;
+}
+
+.skills {
+  overflow: scroll;
+  background: ghostwhite;
+  color: black;
+  font-family: 'Special Elite', cursive;
+  height: 75px;
+  padding: 10px;
+  border: solid 2px #7bc6cc;
+  box-shadow: 3px 3px gainsboro;
+}
+
+.education {
+  overflow: scroll;
+  background: ghostwhite;
+  color: black;
+  font-family: 'Special Elite', cursive;
+  height: 150px;
+  padding: 10px;
+  border: solid 2px #7bc6cc;
+  box-shadow: 3px 3px gainsboro;
+}
+
+.internships {
+  overflow: scroll;
+  background: ghostwhite;
+  color: black;
+  font-family: 'Special Elite', cursive;
+  height: 150px;
+  padding: 10px;
+  border: solid 2px #7bc6cc;
+  box-shadow: 3px 3px gainsboro;
+}
+
+}
