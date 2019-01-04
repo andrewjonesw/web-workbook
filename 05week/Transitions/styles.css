@@ -9,7 +9,7 @@ body {
   align-items: center;
   font-family: 'Satisfy', cursive;
   padding-top: 20px;
-  cursor: url(../\ cat.gif), auto;
+  cursor: url(./cat.gif), auto;
 }
 
 .grid-container {
