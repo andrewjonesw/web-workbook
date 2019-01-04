@@ -6,91 +6,45 @@
 body {
   height: 100%;
   width: 100%;
-  margin: 0;
-  padding: 0;
   align-items: center;
-  font-family: 'Delius Unicase', cursive;
+  font-family: 'Satisfy', cursive;
+  padding-top: 20px;
 }
 
 .grid-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.square {
-  height: 75px;
-  width: 75px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  color: white;
-  border-radius: 6px;
-  margin: .2em;
-  box-shadow: 1px 1px 16px 0px rgba(134, 134, 134, 0.51);
-  transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  font-size: 48px;
 }
 
-.grid-container {
-  border: 1px solid peru;
-}
 .square-1:hover {
   transition: transform 1s linear;
   transform: translateX(500px) rotate(180deg);
-  background: #b03532;
 } 
 .square-2:hover {
   transition: transform 1s linear;
   transform: translateX(-500px) rotate(180deg);
-  background: #33a8a5;
 }
 .square-3:hover {
-  background: #ff9069;
-  transform: scale(0.1)
-}
-.square-4:hover {
-  background: #6a478f;
-  transform: scale(5.0)
-}
-.square-5:hover {
-  background: #3d8bb1;
   transition: transform .5s linear;
   transform: translateX(500px);
 }
-.square-6:hover {
-  background: #4464a1;
+.square-4:hover {
   transition: transform 2s linear;
   transform: translateX(500px);
 }
-a:nth-child(even) {
-transition: linear;
-transition-delay: 1s;
-transition-duration: 2s;
-transform: translateX(-200px) scale(0.5);
+.square-5:hover {
+  transform: scale(0.5)
 }
-a:nth-child(odd) {
-transition: linear;
-transition-delay: 3s;
-transition-duration: 1s;
-transform: translateX(200px) scale(2.0);
-} 
-.square-7 {
-  background: purple;
+.square-6:hover {
+  transform: scale(2.0)
 }
-.square-8 {
-  background: purple; 
+
+.circle-7:hover { 
+  transition: ease-out;
+  transition-duration: 5s;
+  transform: translateX(500px);
 }
-.square-9 {
-  background: greenyellow;
-}
-.square-10 {
-  background: greenyellow;
-}
-.square-11 {
-  background: yellow;
-}
-.square-12 {
-  background: yellow;
   
 }
