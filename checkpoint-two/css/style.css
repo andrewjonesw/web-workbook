@@ -1,1 +1,39 @@
+body {
+  background-color: whitesmoke;
+  font-family: 'Cinzel', serif;
+}
 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.image1 {
+  filter: opacity(50%);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.image2 {
+  filter: opacity(50%);
+  margin-bottom: 10px;
+}
+
+.image3 {
+  filter: opacity(50%);
+  margin-right: 10px;
+}
+
+.image4 {
+  filter: opacity(50%);
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
