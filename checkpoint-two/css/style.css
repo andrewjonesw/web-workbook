@@ -29,6 +29,21 @@ body {
   filter: opacity(50%);
 }
 
+.image1:hover { 
+  filter: opacity(100%)
+}
+
+.image2:hover { 
+  filter: opacity(100%)
+}
+
+.image3:hover { 
+  filter: opacity(100%)
+}
+
+.image4:hover { 
+  filter: opacity(100%)
+}
 
 @media (max-width: 768px) {
   .container {
