@@ -9,6 +9,14 @@ body {
   background-color: rgba(0, 0, 255, 0.2)
 }
 
+img {
+  max-width: 100%;
+  height: 100%;
+  justify-items: center;
+  border: solid 1px ghostwhite;
+}
+
+
 h1 {
     display: flex;
     justify-content: center;
@@ -34,6 +42,7 @@ h4 {
   grid-column-end: span 2;
   display: flex;
   flex-direction: row;
+  background: whitesmoke;
 }
 
 .item-2 {
@@ -113,25 +122,32 @@ h4 {
 }
 
 .box-1a {
-  border: solid red 2px;
-  width: 50%
+  width: 25%;
+  display: flex;
+  justify-content: center;
 }
 
 .box-1b {
-  border: solid orange 2px;
-  width: 50%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
 }
 
 .box-1c {
+  width: 25%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100%;
+}
+
+.box-1d {
+  width: 25%;
+  display: flex;
+  justify-content: center;
 }
 
 .box-3a {
   border: solid red 2px;
-  height: 33%;
+  height: 66%;
 }
 
 .box-3b {
