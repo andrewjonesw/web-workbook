@@ -44,9 +44,9 @@ function report() {
       document.querySelector("#report").innerHTML += `There is a yacht. <br>`;
     } 
     
-    if (howManyDice === 2 || howManyDice === 3) {
-      document.querySelector("#report").innerHTML += `There is a full house. <br>`;
-    } 
+    // if (howManyDice === 2 || howManyDice === 3) {
+    //   document.querySelector("#report").innerHTML += `There is a full house. <br>`;
+    // } 
 
     // if (howManyDice === 2) {
     //   if (howManyDice === 2) {
