@@ -2,6 +2,10 @@ body {
   font-family: 'Libre Barcode 128 Text', cursive;
 }
 
+p {
+  font-family: 'Abril Fatface', cursive;
+}
+
 span {
 background: white;
 padding: 5px;

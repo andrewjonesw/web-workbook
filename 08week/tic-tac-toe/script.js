@@ -20,12 +20,6 @@ function readDataCellValue(cell) {
 let attrVal = cell
 console.log(cell.attr('data-cell'))
 
-})
-})
 $('#clear').on('click', function () {
 dataCell.empty()
 })
-
-//
-
-dataCell.draggable()
